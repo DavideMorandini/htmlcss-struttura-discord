@@ -26,7 +26,7 @@ div.row_header {
 }
 
 nav {
-    border: 1px solid black;
+    border: 2px solid green;
     width: 100%;
     height: 70px;
     display: flex;
@@ -34,29 +34,18 @@ nav {
     align-items: center; 
 }
 
-ul {
-    border: 1px solid black;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-ul li {
+div._el {
     border: 1px dashed black;
-    width: calc(100% / 3);
-    height: 25px;
-    background-color: #d9817d;
-    list-style-type: none;
+    height: 30px;
+    background-color: #d8827d;
 }
 
-ul li.small {
-    /* flex-grow: 1; */
+div.small {
+    width: 20%;
 }
 
-ul li.big {
-    /* flex-grow: 4; */
+div.big {
+    width: 80%;
 }
 
 /* main */
@@ -97,6 +86,10 @@ div.container_section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+span {
+    align-self: baseline;
 }
 
 div.row_section {
